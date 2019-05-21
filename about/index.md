@@ -6,7 +6,7 @@ date: 2019-05-20
 comments: false
 ---
 
-<center> Dreams & Passions</center>
+<center><h2> Dreams & Passions</h2></center>
 
 ## Let's Start with Data Science
 * Learning how to harness the incredible capabilities of R & Python to analyze & visualize data
