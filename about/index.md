@@ -22,4 +22,4 @@ comments: false
 * Traveling the world & through time
 (if you don't believe me see DeLorean below)
 
-<img src= assets/image/"DeLorean.jpg", alt="DeLorean" width="500" height="300">
+<img src= "/assets/img-DeLorean.jpg" >
