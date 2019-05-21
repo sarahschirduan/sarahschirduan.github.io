@@ -23,4 +23,4 @@ comments: false
 
 (if you don't believe me see DeLorean below)
 
-<img src="assets/img/DeLorean.jpg"/>
+<a href="/img/DeLorean.jpg"><img src="/img/DeLorean.jpg"></a>
