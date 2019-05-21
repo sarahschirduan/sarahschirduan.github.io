@@ -20,6 +20,6 @@ comments: false
 * Running on the beach
 * Baking cookies
 * Traveling the world & through time
-* (if you don't believe me see DeLorean below)
+(if you don't believe me see DeLorean below)
 
 <img src="DeLorean.jpg", alt="DeLorean" width="500" height="300">
