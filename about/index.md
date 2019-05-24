@@ -27,4 +27,4 @@ comments: false
 
 <div>Icons made by <a href="https://www.flaticon.com/authors/kiranshastry" title="Kiranshastry">Kiranshastry</a> from <a href="https://www.flaticon.com/" title="Flaticon"></a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			   title="Creative Commons BY 3.0" target="blank">CC 3.0 BY</a></div>
 
-<div>Background Photo by John Cahil Rom from <a href= "https://www.pexels.com/photo/underwater-2170473/" title="Pexels">Pexels</a> from <a href="https://www.pexels.com/" title="Pexels">www.pexels.com</a></div>
+<div>Background Photo by John Cahil Rom from <a href= "https://www.pexels.com/photo/underwater-2170473/" title="Pexels">Pexels</a></div>
