@@ -24,7 +24,7 @@ comments: false
 (if you don't believe me see DeLorean below)
 <div>
 <figure>
-  <a href="/assets/img/DeLorean.jpg"><img src="/assets/img/DeLorean.jpg", border="5"></a>
+  <img style="border:5px solid black"><a href="/assets/img/DeLorean.jpg"><img src="/assets/img/DeLorean.jpg"></a>
 </figure>
 </div>
 
