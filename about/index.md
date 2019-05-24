@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About Sarah
-Dreams & Passions
 tags: [about]
 date: 2019-05-20
 comments: false
