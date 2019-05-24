@@ -3,7 +3,7 @@ layout: page
 title: About Sarah
 tags: [about]
 date: 2019-05-20
-feature: <a href="/assets/img/Dolphin 2.jpg"><img src="/assets/img/Dolphin 2.jpg"></a>
+feature: <a href="/assets/img/Dolphin 2.jpg"><img src="/assets/img/Dolphin 2.jpg">
 comments: false
 ---
 
