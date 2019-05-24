@@ -25,6 +25,6 @@ comments: false
 
 <a href="/assets/img/DeLorean.jpg"><img src="/assets/img/DeLorean.jpg">
 
-<div><font size="-2">Diver Icon made by <a href="https://www.flaticon.com/authors/kiranshastry" title="Kiranshastry">Kiranshastry</a> from <a href="https://www.flaticon.com/" title="Flaticon">Flaticon is licensed by <a href="http://creativecommons.org/licenses/by/3.0" title="Creative Commons BY 3.0" target="blank"> CC 3.0 BY</font></div>
+<div><font size="-2">Diver Icon made by <a href="https://www.flaticon.com/authors/kiranshastry" title="Kiranshastry">Kiranshastry</a> from <a href="https://www.flaticon.com/" title="Flaticon">Flaticon</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0" title="Creative Commons BY 3.0" target="blank"> CC 3.0 BY</font></div></a>
 
 <div><font size="-2">Underwater Background Photo by John Cahil Rom from <a href= "https://www.pexels.com/photo/underwater-2170473/" title="Pexels">Pexels</a></font></div></a>
