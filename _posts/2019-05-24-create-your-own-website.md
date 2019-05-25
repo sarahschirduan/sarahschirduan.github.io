@@ -73,3 +73,7 @@ Now my site looks marvelous.
 </figure>
 
 Good luck with your site & future projects! You got this!
+
+<figure>
+  <a href="/assets/img/stark.jpg"><img src="/assets/img/stark.jpg" style="width:683px; height:384px"></a>
+</figure>
