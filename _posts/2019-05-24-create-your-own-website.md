@@ -14,5 +14,5 @@ comments: true
 </figure>
 
 <figure>
-  <a href="/assets/img/afterweb.png"><img src="/assets/img/afterweb.png" style="width:800px; height:600px"></a>
+  <a href="/assets/img/afterweb.png"><img src="/assets/img/afterweb.png" style="width:600px; height:400px"></a>
 </figure>
