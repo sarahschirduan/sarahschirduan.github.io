@@ -43,10 +43,32 @@ Next, I created an about page & blog page. To do that go to your github.io page 
 <a href="/assets/img/Create_file.png"><img src="/assets/img/Create_file.png"></a>
 </figure>
 
-After creating those links, I updated my main index file so I could access those other links from the home page.
+After creating those links, I updated my main index file in Atom so I could access those other links from the home page.
 
 This is what my code looked like.
 
 <figure>
 <a href="/assets/img/Main.png"><img src="/assets/img/Main.png"></a>
 </figure>
+
+As magnificent as my initial landing page looked, I was ready for something slightly more professional.
+
+You can download free website templates from this site <a href="https://jekyllthemes.org/"> https://jekyllthemes.org/</a>
+
+First, you’ll need to download Jekyll <a href="https://jekyllrb.com/docs/installation/"> https://jekyllrb.com/docs/installation/</a> Scroll to the bottom and choose your operating system, click on Windows, Mac, or Linux.
+
+If you have a Windows, operating system, you may need to install a new terminal to get Jekyll working <a href="https://ubuntu.com/download/server/"> https://ubuntu.com/download/server/</a>
+
+I chose the Moon theme. <a href="https://jekyllthemes.org/themes/moon/"> https://jekyllthemes.org/themes/moon/</a>
+
+Once you download the new theme, add them to your GitHub folder on your local file. Before committing them in GitHub Desktop, edit your existing index & about files. I changed the names to indexy & abouty so the new Moon theme index and about HTML files will update my website properly.
+
+This is what my GitHub folder looked like after downloading Moon theme & changing the initial names for index & about file.
+
+<figure>
+<a href="/assets/img/folders_img.png"><img src="/assets/img/folders_img.png"></a>
+</figure>
+
+The beauty of using a prebuilt template, is it’s easy to personalize it for your purposes (changing background image, posts, etc). Simply open the HTML files in Atom, make adjustments, then commit them in GitHub Desktop.
+
+You got this!
