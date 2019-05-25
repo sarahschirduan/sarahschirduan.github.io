@@ -16,12 +16,11 @@ comments: false
 
 ## Other Life Things
 * Kickboxing
-* Reading positive psychology books (Shawn Achor, Caroline Leaf)
-* Running on the beach
 * Baking cookies
-* Traveling the world & through time
+* Running on the beach
+* Reading positive psychology books (Shawn Achor, Caroline Leaf)
+* Traveling the world & through time (if you don't believe me see DeLorean below)
 
-(if you don't believe me see DeLorean below)
 <div>
 <figure>
   <a href="/assets/img/DeLorean.jpg"><img src="/assets/img/DeLorean.jpg"></a>
