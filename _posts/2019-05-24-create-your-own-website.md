@@ -9,7 +9,7 @@ comments: true
 
 ### GitHub
 
-If you are setting up a website from scratch, this post is for you.<br><br>
+If you are setting up a website from scratch, this post is for you.
 
 I wanted to learn the basics of setting up a website and HTML before choosing a crisp pre-built template.
 
