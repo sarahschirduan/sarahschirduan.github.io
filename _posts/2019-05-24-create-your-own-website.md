@@ -9,13 +9,13 @@ comments: true
 
 If you are setting up a website from scratch, this post is for you.<br><br>
 
-### <center>Take your website from this<center/>
+<center>Take your website from this<center/>
 
 <figure>
   <a href="/assets/img/beforeweb2.png"><img src="/assets/img/beforeweb2.png" style="width:683px; height:384px"></a>
 </figure>
 
-### <center>To this<center/>
+<center>To this<center/>
 <figure>
   <a href="/assets/img/afterweb.png"><img src="/assets/img/afterweb.png" style="width:683px; height:384px"></a>
 </figure>
@@ -35,4 +35,18 @@ This is what I did when following their tutorial
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tip: If you want to do more than one commit at a time, be sure to type something in the Summary box.
 <figure>
 <a href="/assets/img/summary_box.png"><img src="/assets/img/summary_box.png"></a>
+</figure>
+
+Next, I created an about page & blog page. To do that go to your github.io page and click Create new file, I named one about.html and another blog.html.
+
+<figure>
+<a href="/assets/img/Create_file.png"><img src="/assets/img/Create_file.png"></a>
+</figure>
+
+After creating those links, I updated my main index file so I could access those other links from the home page.
+
+This is what my code looked like.
+
+<figure>
+<a href="/assets/img/Main.png"><img src="/assets/img/Main.png"></a>
 </figure>
