@@ -7,7 +7,7 @@ tags: [website, post]
 comments: true
 ---
 
-### Before and After
+### <center>Before and After<center/>
 
 <figure>
   <a href="/assets/img/beforeweb2.png"><img src="/assets/img/beforeweb2.png" style="width:683px; height:384px"></a>
@@ -16,3 +16,10 @@ comments: true
 <figure>
   <a href="/assets/img/afterweb.png"><img src="/assets/img/afterweb.png" style="width:683px; height:384px"></a>
 </figure>
+
+If you are setting up a website from scratch, this post is for you.
+
+I wanted to learn the basics of setting up a website and HTML before choosing a crisp pre-built template.
+
+You can set up a website for free through GitHub. Follow the step by step tutorial by clicking this link.
+https://pages.github.com/
