@@ -16,7 +16,7 @@ comments: false
 
 ## Other Life Things
 * Kickboxing
-* Reading positive psychology books
+* Reading positive psychology books (Shawn Achor, Caroline Leaf)
 * Running on the beach
 * Baking cookies
 * Traveling the world & through time
