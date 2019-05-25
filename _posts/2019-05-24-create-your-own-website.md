@@ -50,7 +50,7 @@ As magnificent as my initial landing page looked, I was ready for something slig
 
 You can download free website templates from this site <a href="http://jekyllthemes.org/"> http://jekyllthemes.org/</a>
 
-First, you’ll need to download Jekyll <a href="https://jekyllrb.com/docs/installation/"> https://jekyllrb.com/docs/installation/</a> Scroll to the bottom and choose your operating system, click on Windows, Mac, or Linux.
+First, you’ll need to download Jekyll <a href="https://jekyllrb.com/docs/installation/"> https://jekyllrb.com/docs/installation/</a> Scroll to the bottom and choose your operating system, Windows, Mac, or Linux.
 
 If you have a Windows, operating system, you may need to install a new terminal to get Jekyll working <a href="https://ubuntu.com/download/server/"> https://ubuntu.com/download/server/</a>
 
