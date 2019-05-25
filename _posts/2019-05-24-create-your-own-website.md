@@ -53,7 +53,7 @@ This is what my code looked like.
 
 As magnificent as my initial landing page looked, I was ready for something slightly more professional.
 
-You can download free website templates from this site <a href="https://www.jekyllthemes.org/"> https://wwww.jekyllthemes.org/</a>
+You can download free website templates from this site <a href="http://jekyllthemes.org/"> http://jekyllthemes.org/</a>
 
 First, you’ll need to download Jekyll <a href="https://jekyllrb.com/docs/installation/"> https://jekyllrb.com/docs/installation/</a> Scroll to the bottom and choose your operating system, click on Windows, Mac, or Linux.
 
