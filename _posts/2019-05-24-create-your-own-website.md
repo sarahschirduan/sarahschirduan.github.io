@@ -9,13 +9,13 @@ comments: true
 
 If you are setting up a website from scratch, this post is for you.<br><br>
 
-<center>Take your website from this<center/>
+### <center>Take your website from this<center/>
 
 <figure>
   <a href="/assets/img/beforeweb2.png"><img src="/assets/img/beforeweb2.png" style="width:683px; height:384px"></a>
 </figure>
 
-<center>To this<center/>
+### <center>To this<center/>
 <figure>
   <a href="/assets/img/afterweb.png"><img src="/assets/img/afterweb.png" style="width:683px; height:384px"></a>
 </figure>
