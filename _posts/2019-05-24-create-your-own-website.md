@@ -7,7 +7,7 @@ tags: [website, post]
 comments: true
 ---
 
-If you are setting up a website from scratch, this post is for you.<br></br>
+If you are setting up a website from scratch, this post is for you.<br><br>
 
 ### <center>Take your website from this<center/>
 
@@ -31,6 +31,6 @@ This is what I did when following their tutorial
 * Step 2: I suggest using GitHub Desktop to clone your directory <a href="https://desktop.github.com/"> https://desktop.github.com/</a>
 * Step 3: The text editor I used was Atom
   <a href="https://flight-manual.atom.io/getting-started/sections/installing-atom/"> https://flight-manual.atom.io/getting-started/sections/installing-atom/</a>
-* Step 4: Commit & publish and go to your website: <u>https://username.github.io</u>
+* Step 4: Commit & publish and go to your website: <u>https://username.github.io</u><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tip: If you want to do more than one commit at a time, be sure to type something in the Summary box.
-<div align="left"><a href="/assets/img/summary_box.png"><img src="/assets/img/summary_box.png"></a></div>
+<a href="/assets/img/summary_box.png"><img src="/assets/img/summary_box.png" align="left"></a>
