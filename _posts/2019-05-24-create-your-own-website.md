@@ -7,20 +7,9 @@ tags: [website, post]
 comments: true
 ---
 
-If you are setting up a website from scratch, this post is for you.<br><br>
-
-### <center>Take your website from this<center/>
-
-<figure>
-  <a href="/assets/img/beforeweb2.png"><img src="/assets/img/beforeweb2.png" style="width:683px; height:384px"></a>
-</figure>
-
-### <center>To this<center/>
-<figure>
-  <a href="/assets/img/afterweb.png"><img src="/assets/img/afterweb.png" style="width:683px; height:384px"></a>
-</figure>
-
 ### GitHub
+
+If you are setting up a website from scratch, this post is for you.<br><br>
 
 I wanted to learn the basics of setting up a website and HTML before choosing a crisp pre-built template.
 
@@ -51,6 +40,12 @@ This is what my code looked like.
 <a href="/assets/img/Main.png"><img src="/assets/img/Main.png"></a>
 </figure>
 
+Ta da!
+
+<figure>
+  <a href="/assets/img/beforeweb2.png"><img src="/assets/img/beforeweb2.png" style="width:683px; height:384px"></a>
+</figure>
+
 As magnificent as my initial landing page looked, I was ready for something slightly more professional.
 
 You can download free website templates from this site <a href="http://jekyllthemes.org/"> http://jekyllthemes.org/</a>
@@ -71,4 +66,10 @@ This is what my GitHub folder looked like after downloading Moon theme & changin
 
 The beauty of using a prebuilt template, is it’s easy to personalize it for your purposes (changing background image, posts, etc). Simply open the HTML files in Atom, make adjustments, then commit them in GitHub Desktop.
 
-You got this!
+Now my site looks marvelous.
+
+<figure>
+  <a href="/assets/img/afterweb.png"><img src="/assets/img/afterweb.png" style="width:683px; height:384px"></a>
+</figure>
+
+Good luck with your site & future projects! You got this!
