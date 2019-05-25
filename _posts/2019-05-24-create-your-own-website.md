@@ -10,6 +10,6 @@ comments: true
 ##Before and After
 
 <figure class="half">
-  <a href="/assets/img/beforeweb.jpg"><img src="/assets/img/beforeweb.jpg"></a>
-  <a href="/assets/img/afterweb.jpg"><img src="/assets/img/afterweb.jpg"></a>
+  <a href="/assets/img/beforeweb.png"><img src="/assets/img/beforeweb.png"></a>
+  <a href="/assets/img/afterweb.png"><img src="/assets/img/afterweb.png"></a>
 </figure>
