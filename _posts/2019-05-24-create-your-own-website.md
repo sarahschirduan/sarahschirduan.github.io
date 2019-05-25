@@ -26,7 +26,7 @@ This is what I did when following their tutorial
 <a href="/assets/img/summary_box.png"><img src="/assets/img/summary_box.png"></a>
 </figure>
 
-Next, I created an about page & blog page. To do that go to your github.io page and click Create new file, I named one about.html and another blog.html.
+Next, I created an about & blog page. To do that go to your github.io page and click Create new file, I named one about.html and another blog.html.
 
 <figure>
 <a href="/assets/img/Create_file.png"><img src="/assets/img/Create_file.png"></a>
