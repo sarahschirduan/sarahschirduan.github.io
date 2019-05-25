@@ -10,7 +10,7 @@ comments: true
 ### Before and After
 
 <figure>
-  <a href="/assets/img/beforeweb.png"><img src="/assets/img/beforeweb.png"></a>
+  <a href="/assets/img/beforeweb2.png"><img src="/assets/img/beforeweb2.png"></a>
 </figure>
 
 <figure>
