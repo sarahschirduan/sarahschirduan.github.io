@@ -61,7 +61,7 @@ If you have a Windows, operating system, you may need to install a new terminal 
 
 I chose the Moon theme. <a href="http://jekyllthemes.org/themes/moon/"> http://jekyllthemes.org/themes/moon/</a>
 
-Once you download the new theme, add them to your GitHub folder on your local file. Before committing them in GitHub Desktop, edit your existing index & about files. I changed the names to indexy & abouty so the new Moon theme index and about HTML files will update my website properly.
+Once you download the new theme, add them to your GitHub folder on your local file. Before committing them in GitHub Desktop, edit your existing index & about files. I changed the names to <i>indexy</i> & <i>origabout</i> so the new Moon theme index and about HTML files will update my website properly.
 
 This is what my GitHub folder looked like after downloading Moon theme & changing the initial names for index & about file.
 
