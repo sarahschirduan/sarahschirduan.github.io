@@ -10,9 +10,9 @@ comments: true
 ### Before and After
 
 <figure>
-  <a href="/assets/img/beforeweb2.png"><img src="/assets/img/beforeweb2.png" style="width:684px; height:384px"></a>
+  <a href="/assets/img/beforeweb2.png"><img src="/assets/img/beforeweb2.png" style="width:683px; height:384px"></a>
 </figure>
 
 <figure>
-  <a href="/assets/img/afterweb.png"><img src="/assets/img/afterweb.png" style="width:600px; height:400px"></a>
+  <a href="/assets/img/afterweb.png"><img src="/assets/img/afterweb.png" style="width:683px; height:384px"></a>
 </figure>
