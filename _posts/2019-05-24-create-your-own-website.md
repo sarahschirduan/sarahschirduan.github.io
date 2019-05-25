@@ -64,7 +64,7 @@ This is what my GitHub folder looked like after downloading Moon theme & changin
 <a href="/assets/img/folders_img.png"><img src="/assets/img/folders_img.png"></a>
 </figure>
 
-The beauty of using a prebuilt template, is it’s easy to personalize it for your purposes (changing background image, posts, etc). Simply open the HTML files in Atom, make adjustments, then commit them in GitHub Desktop.
+The beauty of using a prebuilt Jekyll template, is it’s easy to personalize it for your purposes (changing background image, posts, etc). Simply open the HTML files in Atom, make adjustments, then commit them in GitHub Desktop.
 
 Now my site looks marvelous.
 
