@@ -7,7 +7,7 @@ tags: [website, post]
 comments: true
 ---
 
-###Before and After
+### Before and After
 
 <figure>
   <a href="/assets/img/beforeweb.png"><img src="/assets/img/beforeweb.png"></a>
