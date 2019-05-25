@@ -7,7 +7,7 @@ tags: [website, post]
 comments: true
 ---
 
-If you are setting up a website from scratch, this post is for you.
+If you are setting up a website from scratch, this post is for you<br>.
 
 ### <center>Take your website from this<center/>
 
@@ -22,4 +22,4 @@ If you are setting up a website from scratch, this post is for you.
 
 I wanted to learn the basics of setting up a website and HTML before choosing a crisp pre-built template.
 
-You can set up a website for free through GitHub. Follow the step by step tutorial by clicking this link. <a href="https://pages.github.com/", title="https://pages.github.com"/>
+You can set up a website for free through GitHub. Follow the step by step tutorial by clicking this link. <a href="https://pages.github.com/", title="https://pages.github.com"></a>
