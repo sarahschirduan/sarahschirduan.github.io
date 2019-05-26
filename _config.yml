@@ -5,7 +5,7 @@ description:        "Website/resume/blog for Sarah Schirduan, data diver."
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/diving.png'
-background:         'assets/img/underwater2.jpg'
+background:         'assets/img/underwater5.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                https://sarahschirduan.github.io/
