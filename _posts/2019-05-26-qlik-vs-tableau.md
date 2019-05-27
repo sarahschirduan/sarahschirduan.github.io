@@ -7,15 +7,15 @@ tags: [data visualization, Qlik, Tableau, post]
 comments: true
 ---
 
-#### Summary Comparison
+## Summary Comparison
 
-Qlik               
+<b>Qlik</b>               
 * Personalizing measures   
 * Loading data (making associations, linking tables)
 * Arranging charts and visuals on dashboard sheet
 * Interactivity within dashboard
 
-Tableau
+<b>Tableau</b>
 * Layout of software
 * Loading data (file types)
 * Availability of chart types
