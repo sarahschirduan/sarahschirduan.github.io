@@ -56,7 +56,7 @@ One significant difference with Qlik is the level of interaction once the dashbo
 
 ### Final Thoughts
 
-The learning curve takes longer with Qlik, partially because there are more steps when building charts and designing dashboards. The end product with both tools is similar. However, Tableau is more robust with chart types and easier use of measures and displays. Additionally, Tableau is visually more appealing than Qlik. See Figure 2 below. Although Qlik does allow the user to buildout the chart and dashboard precisely, it does not surpass the usability and visual presentation of Tableau.
+The learning curve takes longer with Qlik, partially because there are more steps when building charts and designing dashboards. The end product with both tools is similar. However, Tableau is more robust with chart types and easier use of measures and displays. Additionally, Tableau is visually more appealing than Qlik. See figure below. Although Qlik does allow the user to buildout the chart and dashboard precisely, it does not surpass the usability and visual presentation of Tableau.
 
 <figure>
 <a href="/assets/img/tableau.png"><img src="/assets/img/tableau.png"></a>
