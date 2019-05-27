@@ -21,6 +21,8 @@ comments: true
 * Availability of chart types
 * Quick learning curve
 
+<br>
+
 ### The Purpose of Data Visualization
 
 Data visualization done well is when data is presented simply and clearly. When an employee or executive glances at a dashboard, ascertaining the company’s performance versus its goals should be accomplished within moments. Choosing a data visualization software tool is not as easy as you might think. As we would expect there are advantages and disadvantages to each tool. Your ultimate choice will depend on what matters more to your organization.
