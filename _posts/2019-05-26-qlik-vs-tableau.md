@@ -25,11 +25,13 @@ comments: true
 ### The Purpose of Data Visualization
 
 Data visualization done well is when data is presented simply and clearly. When an employee or executive glances at a dashboard, ascertaining the company’s performance versus its goals should be accomplished within moments. Choosing a data visualization software tool is not as easy as you might think. As we would expect there are advantages and disadvantages to each tool. Your ultimate choice will depend on what matters more to your organization.
+
 <br>
 ### Loading Data
 
 The first step is loading data into the program. Tableau is more user friendly with loading an Excel or JSON file,
 or from a system such as Tableau Server, SQL, or Oracle. Each tool has an optional data cleanup step. However, Qlik goes a step beyond with making associations, linking tables with common dimensions and measures. Both easily allow the next step which is editing the sheet and adding charts.
+
 <br>
 ### Software Display
 
