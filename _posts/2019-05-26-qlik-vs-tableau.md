@@ -7,6 +7,20 @@ tags: [data visualization, Qlik, Tableau, post]
 comments: true
 ---
 
+#### Summary Comparison
+
+Qlik               
+* Personalizing measures   
+* Loading data (making associations, linking tables)
+* Arranging charts and visuals on dashboard sheet
+* Interactivity within dashboard
+
+Tableau
+* Layout of software
+* Loading data (file types)
+* Availability of chart types
+* Quick learning curve
+
 ### The Purpose of Data Visualization
 
 Data visualization done well is when data is presented simply and clearly. When an employee or executive glances at a dashboard, ascertaining the company’s performance versus its goals should be accomplished within moments. Choosing a data visualization software tool is not as easy as you might think. As we would expect there are advantages and disadvantages to each tool. Your ultimate choice will depend on what matters more to your organization.
@@ -47,17 +61,3 @@ The learning curve takes longer with Qlik, partially because there are more step
 <figure>
 <a href="/assets/img/tableau.png"><img src="/assets/img/tableau.png"></a>
 </figure>
-
-### Summary Comparison
-
-Qlik               
-* Personalizing measures   
-* Loading data (making associations, linking tables)
-* Arranging charts and visuals on dashboard sheet
-* Interactivity within dashboard
-
-Tableau
-* Layout of software
-* Loading data (file types)
-* Availability of chart types
-* Quick learning curve
