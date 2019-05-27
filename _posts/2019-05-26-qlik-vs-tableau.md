@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Which is better? Qlik or Tableau"
+title: "Which is better: Qlik or Tableau?"
 date: 2019-05-26
 excerpt: "Comparing two of the most popular data visualization tools: Qlik & Tableau."
 tags: [data visualization, Qlik, Tableau, post]
