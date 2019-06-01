@@ -38,8 +38,7 @@ disqus_shortname:
   #ad-slot:
 #bing-verify:
 email:              sarah.schirduan@gmail.com
-twitter:
-  card:             summary
+#twitter:
 #facebook:           username
 github-url:         sarahschirduan
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
