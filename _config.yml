@@ -1,7 +1,7 @@
 # Site
 title:              Sarah Schirduan
 bio:                'Diving into the data science realm.'
-description:        "Website/resume/blog for Sarah Schirduan, data diver."
+description:        "Data science & analytics blog for Sarah Schirduan."
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/diving.png'
@@ -79,7 +79,7 @@ links:
 webmaster_verifications:
   google: b901e5bedb18bbf272c77eecb9d0e99fb59a9eff
 
-lang: en_US
+lang: en
 
 jekyll-mentions:
     base_url: https://github.com
