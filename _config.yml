@@ -63,7 +63,7 @@ linkedin:          sarah-schirduan-6a767b4b/
 #hackernews:        username
 
 # Gems
-gems:
+plugins:
   - jekyll-mentions
   - jekyll-feed
   - jekyll-sitemap
