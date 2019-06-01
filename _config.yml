@@ -38,7 +38,8 @@ disqus_shortname:
   #ad-slot:
 #bing-verify:
 email:              sarah.schirduan@gmail.com
-#twitter:            username
+twitter:
+  card:             summary
 #facebook:           username
 github-url:         sarahschirduan
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
@@ -70,6 +71,16 @@ plugins:
   - jekyll-gist
   - jekyll-seo-tag
 
+social:
+name: Sarah Schirduan
+links:
+    - https://www.linkedin.com/in/sarah-schirduan-6a767b4b/
+    - https://github.com/sarahschirduan
+
+webmaster_verifications:
+  google: b901e5bedb18bbf272c77eecb9d0e99fb59a9eff
+
+lang: en_US
 
 jekyll-mentions:
     base_url: https://github.com
