@@ -81,7 +81,7 @@ webmaster_verifications:
 
   twitter:
     card: summary
-    image: '/assets/img/diving.png'
+    image: 'assets/img/diving.png'
 
 lang: en
 
