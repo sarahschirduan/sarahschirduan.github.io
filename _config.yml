@@ -79,6 +79,9 @@ links:
 webmaster_verifications:
   google: b901e5bedb18bbf272c77eecb9d0e99fb59a9eff
 
+  twitter:
+    card: summary
+
 lang: en
 
 jekyll-mentions:
