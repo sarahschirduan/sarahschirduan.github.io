@@ -3,7 +3,7 @@ layout: post
 title: "Machine Learning with the Titanic Part 1"
 date: 2019-06-15
 excerpt: "Exploring the Titanic Passengers Dataset"
-feature: /assets/img/berg1.jpg
+feature: /assets/img/berg2.jpg
 post: true
 project: true
 tags: [website, post, projects]
