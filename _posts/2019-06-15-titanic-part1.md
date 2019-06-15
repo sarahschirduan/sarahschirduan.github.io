@@ -48,6 +48,10 @@ Let’s look at the data types to make sure they are appropriate. We find that t
 
 We can look at how many people survived in our combined dataset, we can do this by using the table function. Only about 40% survived (we know this from our train dataset).
 
+<figure>
+<a href="/assets/img/1titanic1.png"><img src="/assets/img/1titanic1.png"></a>
+</figure>
+
 Let’s look at the female to male distribution of survivors in the train dataset. Clearly women had a better change of survival than men.
 
 I suggest downloading the ggplot2 in order to display visually appealing graphs. We wanted to look at survival rate by Passenger Class and the graph is below. This tells the story that male passengers in the third class have the poorest survival rate of all other passengers. This is communicated far more quickly than if we had simply looked at a table of numbers.
