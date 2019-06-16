@@ -106,10 +106,7 @@ Let’s look at age next. First, we’ll use a summary function to get basic sta
 
 <br>
 
-Luckily, we have the newly created title variable which we believe to be something of an indicator for age. Let’s test it out for passengers with the title Master. We’ll create a variable called ‘boys’ populated only with those instances/rows where the title is Master. Next, we’ll look at the age range for boys.
-
-<br>
-The average age for passengers with title Master is 6 years old. This confirms Master equates to male children, max age is 14 ½ .
+Luckily, we have the newly created title variable which we believe to be something of an indicator for age. Let’s test it out for passengers with the title Master. We’ll create a variable called ‘boys’ populated only with those instances/rows where the title is Master. Let's look at the age range for boys. The average age for passengers with title Master is 6 years old, the max age is 14 ½. This confirms Master equates to male children. We'll use this same logic for the other titles, thus there is no more work to do on the age variable.
 
 <figure>
 <a href="/assets/img/1titanic7.png"><img src="/assets/img/1titanic7.png"></a>
@@ -132,18 +129,19 @@ Note whenever you see a #, this signifies a comment, it is not executable code b
 
 <br>
 
-## Conclusions  
+## Let's review
 
-That wraps up our exploration of variables.
-
-Let's review what we've accomplished so far:
+Accomplishments:
 * Inputted the data into R
 * Combined the train & test dataset into one dataset
 * Transformed several variables into different character types
 * Created new variables
 
-Let's review our findings:
-
+Findings:
+* Overall, women are much more likely to survive the sinking of the Titanic than men
+* Men in the third class had the poorest survival rate
+* Women in the first and second class have similar survival rates
+* This confirms the notion of women and children first. Master, Miss, and Mrs. have the highest survival rates in the first 2 classes compared to Mr.
 
 
 <figure>
