@@ -39,6 +39,7 @@ The data has already been split into a training set and a test set. The training
 
 If you have not already done so, download R Studio for free using this link <br>
 <a href="https://www.rstudio.com/products/rstudio/download" target="_ blank"> https://www.rstudio.com/products/rstudio/download/</a>.
+
 <br>
 
 Download files from Kaggle, open in R, then click on train file & test file to get a feel for the variables. We want to combine both sets into one dataset so we can perform summary statistics and variable changes one one dataset instead of two. Yet, when we look at the test dataset, we notice it does not have the same number of columns as the train dataset. This is because it does not have the survived: yes or no variable. We’ll need to add a ‘test.survived’ variable. Instead of editing original test dataset file, we’ll create a copy of the test dataset and simply add the new test.survived variable. We'll fill in "None" for the values in this column because in the test dataset we do not know if the passenger survived.  Please reference GitHub for the detailed code.
