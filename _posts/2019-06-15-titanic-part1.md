@@ -13,7 +13,7 @@ comments: true
 If you are starting out in data science or analytics, then this post is for you.
 
 I enrolled in a class at St. Joseph's University that teaches how to use R for statistical analysis and graphics. But it has been about a year since I finished the course, so I wanted a refresher about tackling a dataset from start to finish. I checked out interesting projects on Kaggle and came across this dataset about the Titanic
-<a href="https://www.kaggle.com/c/titanic/data" target="_ blank"> https://www.kaggle.com/c/titanic/data</a>. Click on this link for a thorough description about the variables.
+<a href="https://www.kaggle.com/c/titanic/data" target="_ blank"> https://www.kaggle.com/c/titanic/data</a>. Go to the site for a thorough description about the variables.
 
 Follow <a href="https://github.com/sarahschirduan/sarahschirduan.github.io/projects" target="_ blank"> this link </a> if you want to see my code.
 <br>
