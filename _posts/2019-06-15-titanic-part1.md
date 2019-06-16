@@ -37,7 +37,7 @@ The data has already been split into a training set and a test set. The training
 
 I suggest thoroughly reading about the variables on Kaggle.
 
-If you have not already done so, download R Studio for free using this link Video 3: <a href="https://www.rstudio.com/products/rstudio/download" target="_ blank"> https://www.rstudio.com/products/rstudio/download/</a>.
+If you have not already done so, download R Studio for free using this link <a href="https://www.rstudio.com/products/rstudio/download" target="_ blank"> https://www.rstudio.com/products/rstudio/download/</a>.
 <br>
 <br>
 
@@ -118,8 +118,6 @@ Let’s look at the ticket variable:
 * We note that it is a factor with 929 levels. That is too many unique observations for it to really be considered a factor. We need to change it from a factor to a string. We’ll use the as.character function.
 * After making that change we can preview the data by using the ‘head’ function to ensure it is formatted as we expected.
 * I also want to confirm there are no NA’s for this variable. We can use the sum(is.na(variable)) code. This reveals no NA's.
-
-<br>
 
 <figure>
 <a href="/assets/img/1titanic8.png"><img src="/assets/img/1titanic8.png"></a>
