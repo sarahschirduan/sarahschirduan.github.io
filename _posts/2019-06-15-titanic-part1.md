@@ -44,9 +44,11 @@ If you have not already done so, download R Studio for free using this link Vide
 ## Inputting Data into R
 
 Download files from Kaggle, open in R, then click on train file & test file to get a feel for the variables. We want to combine both sets into one dataset so we can perform summary statistics and variable changes one one dataset instead of two. Yet, when we look at the test dataset, we notice it does not have the same number of columns as the train dataset. This is because it does not have the survived: yes or no variable. We’ll need to add a ‘test.survived’ variable. Instead of editing original test dataset file, we’ll create a copy of the test dataset and simply add the new test.survived variable. We'll fill in "None" for the values in this column because in the test dataset we do not know if the passenger survived.  Please reference GitHub for the detailed code.
+
 <br>
 
 Next, we’ll create a new data frame which contains all rows from train dataset and from the new test dataset. When I initially used the rbind function to combine the two sets, it did not work. I went back and realized when I created the test.survived variable in the new test dataset, I called the column name ‘survived’ instead of ‘Survived’. Because of this small syntax difference the rbind would not work, so I had to go back and edit the code.
+
 <br>
 
 Let’s look at the data types to make sure they are appropriate. We find that the Survived variable is categorized as character, however it is made up of ‘0’s (passenger did not survive), ‘1’s (passenger did survive), and ‘None’. Thus, we need to recharacterize this data type to a factor. In this case, the factor will have three levels, 0, 1, or None. The other variable we need to recharacterize is PClass, currently it is an integer 1 (1st class), 2 (2nd class), 3 (3rd class). We don’t care that the numeric value is 1, except that we know 1 means the passenger is in 1st class. Thus, we will also change this variable to a factor.
