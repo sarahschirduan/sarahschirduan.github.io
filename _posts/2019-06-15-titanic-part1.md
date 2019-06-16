@@ -10,9 +10,9 @@ comments: true
 
 ## Project Overview
 
-If you are starting out in data science or analytics or R, then this post is for you.
+If you are starting out in data science or analytics, then this post is for you.
 
-I enrolled in a class teaching R through St. Joseph’s University. But it has been about a year since I finished the course, so I wanted a refresher about tackling a dataset from start to finish. I checked out interesting projects on Kaggle and came across this dataset
+I enrolled in a class at St. Joseph's University that teaches how to use R for statistical analysis and graphics. But it has been about a year since I finished the course, so I wanted a refresher about tackling a dataset from start to finish. I checked out interesting projects on Kaggle and came across this dataset about the Titanic
 <a href="https://www.kaggle.com/c/titanic/data" target="_ blank"> https://www.kaggle.com/c/titanic/data</a>.
 
 Follow <a href="https://github.com/sarahschirduan/sarahschirduan.github.io/projects" target="_ blank"> this link </a> if you want to see my code.
@@ -33,9 +33,9 @@ I followed Langer’s code and steps for analyzing this dataset. He does an exce
 
 ## Exploring the Data
 
-The data has already been split into a training set and a test set. The training set is the bulk of the total dataset, about 70%, test set is 30%. The training set contains all the variables of the test set, as well as the variable ‘survived’: yes (1) or no (0). The idea is to plug the training set into R, output a predictive model, then test that prediction on the test set. Makes sense, right? We can then look at the predictions for the test set and compare them with actual results from Titanic sinking to know if our model was a good estimate for a passenger’s survival.
+The data has already been split into a training set and a test set. The training set is the bulk of the total dataset, about 70%, test set is 30%. The training set contains all the variables of the test set, as well as the variable ‘survived’: yes (1) or no (0). The idea is to plug the training set into R, output a predictive model, then test that prediction on the test set. Makes sense, right? We can then look at the predictions for the test set and compare them with actual results from the Titanic sinking to know if our model was a good estimate for a passenger’s survival.
 
-I suggest thoroughly reading about variables on Kaggle.
+I suggest thoroughly reading about the variables on Kaggle.
 
 If you have not already done so, download R Studio for free using this link Video 3: <a href="https://www.rstudio.com/products/rstudio/download"
 target="_ blank"> https://www.rstudio.com/products/rstudio/download/</a>.
@@ -54,23 +54,27 @@ Let’s look at the data types to make sure they are appropriate. We find that t
 
 ## Preliminary Findings
 
-We can look at how many people survived in our combined dataset, we can do this by using the table function. Only about 40% survived (we know this from our train dataset).
+We can look at how many people survived in our combined dataset, we can do this by using the table function. There are a total of 1,309 values. The 'None' values are from our test data set where we don't know the survival rate. By looking at the table we see that only about 40% survived (342/(342+549).
 
 <figure>
 <a href="/assets/img/1titanic1.png"><img src="/assets/img/1titanic1.png"></a>
 </figure>
 
-Let’s look at the female to male distribution of survivors in the train dataset. Clearly women had a better change of survival than men.
+Let’s look at the female to male distribution of survivors in the train dataset. Women were 3x as likely to survive as men (74% survival rate vs 19%).
 
 <figure>
 <a href="/assets/img/1titanic2.png"><img src="/assets/img/1titanic2.png"></a>
 </figure>
 
-I suggest downloading the ggplot2 in order to display visually appealing graphs. We wanted to look at survival rate by Passenger Class and the graph is below. This tells the story that male passengers in the third class have the poorest survival rate of all other passengers. This is communicated far more quickly than if we had simply looked at a table of numbers.
+<br>
+
+I suggest downloading the ggplot2 in order to display visually appealing graphs. We want to look at survival rate by Passenger Class and the graph is below. This tells the story that male passengers in the third class have the poorest survival rate of all other passengers. This is communicated far more quickly than if we had simply looked at a table of numbers.
 
 <figure>
 <a href="/assets/img/1titanic3.png"><img src="/assets/img/1titanic3.png"></a>
 </figure>
+
+<br>
 
 We can take this a step further and look at it by gender & by class. Men in the third class had the poorest survival rate. We also notice that women in the first and second class have similar survival rates.
 
@@ -78,7 +82,9 @@ We can take this a step further and look at it by gender & by class. Men in the 
 <a href="/assets/img/1titanic4.png"><img src="/assets/img/1titanic4.png"></a>
 </figure>
 
-As we look at the data, we notice in the name variable there is a title, either Master, Miss, Mrs. And Mr. Langer had the idea of isolating the title and having it as a new variable in the dataset. Again, please reference the code in GitHub as it gets a little complicated. Once isolated we create a graph to see impact of title on survival rate.
+<br>
+
+As we look at the data, we notice in the name variable there is a title, either Master, Miss, Mrs. And Mr.    Langer had the idea of isolating the title and having it as a new variable in the dataset. We'll create a for loop to isolate the title. Please reference the code in GitHub to see exactly how this is done as it gets a little complicated. Once isolated we create a graph to see impact of title on survival rate.
 
 This confirms the notion of women and children first. Master, Miss, and Mrs. have the highest survival rates in the first 2 classes compared to Mr.
 
@@ -86,28 +92,57 @@ This confirms the notion of women and children first. Master, Miss, and Mrs. hav
 <a href="/assets/img/1titanic5.png"><img src="/assets/img/1titanic5.png"></a>
 </figure>
 
+<br>
+
 Let’s look at age next. First, we’ll use a summary function to get basic statistics. The average age of a passenger is about 30 years old. The minimum age is less than a year, the oldest age is 80. Also, there are 263 NA’s. We have a few ways of dealing with this. One option would be to exclude rows that have NA’s. The downside is we’ll lose other good data points within those rows if we delete them. An alternative is substituting NA’s with what we estimate the ages to be.
 
 <figure>
 <a href="/assets/img/1titanic6.png"><img src="/assets/img/1titanic6.png"></a>
 </figure>
 
+<br>
+
 Luckily, we have the newly created title variable which we believe to be something of an indicator for age. Let’s test it out for passengers with the title Master. We’ll create a variable called ‘boys’ populated only with those instances/rows where the title is Master. Next, we’ll look at the age range for boys.
+
+The average age for passengers with title Master is 6 years old. This confirms Master equates to male children, max age is 14 ½ .
 
 <figure>
 <a href="/assets/img/1titanic7.png"><img src="/assets/img/1titanic7.png"></a>
 </figure>
 
-The average age for passengers with title Master is 8 years old. This confirms Master equates to male children, max age is 14 ½ .
+<br>
 
 Let’s look at the ticket variable. We note that it is a factor with 929 levels. That is too many unique observations for it to really be considered a factor. We need to change it from a factor to a string. We’ll use the as.character function.
 
-We can preview the data by using the ‘head’ function which will show us the first few variables.
+After making that change we can preview the data by using the ‘head’ function to ensure it is formatted as we expected.
 
-I also wanted to confirm there were no NA’s for this variable. We can use the sum(is.na(variable)) code.
+I also want to confirm there are no NA’s for this variable. We can use the sum(is.na(variable)) code. This reveals no NA's.
 
-Note the # signifies a comment, it is not executable code but is a visible reminder of the purpose for that specific line of code. Because when you’re looking at something weeks later you might not recall the reason for each line of code.
+Note whenever you see a #, this signifies a comment, it is not executable code but is a visible reminder of the purpose for that specific line of code. Because when you’re looking at something weeks later you might not recall the reason for each line of code.
 
 <figure>
 <a href="/assets/img/1titanic8.png"><img src="/assets/img/1titanic8.png"></a>
+</figure>
+
+<br>
+
+## Conclusions  
+
+That wraps up our exploration of variables.
+
+Let's review what we've accomplished so far:
+* Inputted the data into R
+* Combined the train & test dataset into one dataset
+* Transformed several variables into different character types
+* Created new variables
+
+Let's review our findings:
+*
+*
+*
+*
+
+
+<figure>
+<a href="/assets/img/1titanic9.jpg"><img src="/assets/img/1titanic9.jpg"></a>
 </figure>
