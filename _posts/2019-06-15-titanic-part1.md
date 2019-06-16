@@ -13,7 +13,7 @@ comments: true
 If you are starting out in data science or analytics, then this post is for you.
 
 I enrolled in a class at St. Joseph's University that teaches how to use R for statistical analysis and graphics. But it has been about a year since I finished the course, so I wanted a refresher about tackling a dataset from start to finish. I checked out interesting projects on Kaggle and came across this dataset about the Titanic
-<a href="https://www.kaggle.com/c/titanic/data" target="_ blank"> https://www.kaggle.com/c/titanic/data</a>.
+<a href="https://www.kaggle.com/c/titanic/data" target="_ blank"> https://www.kaggle.com/c/titanic/data</a>. Click on this link for a thorough description about the variables.
 
 Follow <a href="https://github.com/sarahschirduan/sarahschirduan.github.io/projects" target="_ blank"> this link </a> if you want to see my code.
 <br>
@@ -35,14 +35,11 @@ I followed Langer’s code and steps for analyzing this dataset. He does an exce
 
 The data has already been split into a training set and a test set. The training set is the bulk of the total dataset, about 70%, test set is 30%. The training set contains all the variables of the test set, as well as the variable ‘survived’: yes (1) or no (0). The idea is to plug the training set into R, output a predictive model, then test that prediction on the test set. Makes sense, right? We can then look at the predictions for the test set and compare them with actual results from the Titanic sinking to know if our model was a good estimate for a passenger’s survival.
 
-I suggest thoroughly reading about the variables on Kaggle.
+## Inputting Data into R
 
 If you have not already done so, download R Studio for free using this link <br>
 <a href="https://www.rstudio.com/products/rstudio/download" target="_ blank"> https://www.rstudio.com/products/rstudio/download/</a>.
 <br>
-<br>
-
-## Inputting Data into R
 
 Download files from Kaggle, open in R, then click on train file & test file to get a feel for the variables. We want to combine both sets into one dataset so we can perform summary statistics and variable changes one one dataset instead of two. Yet, when we look at the test dataset, we notice it does not have the same number of columns as the train dataset. This is because it does not have the survived: yes or no variable. We’ll need to add a ‘test.survived’ variable. Instead of editing original test dataset file, we’ll create a copy of the test dataset and simply add the new test.survived variable. We'll fill in "None" for the values in this column because in the test dataset we do not know if the passenger survived.  Please reference GitHub for the detailed code.
 
