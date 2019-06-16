@@ -127,7 +127,7 @@ Note whenever you see a #, this signifies a comment, it is not executable code b
 
 <br>
 
-## Let's review
+## Review
 
 Accomplishments:
 * Inputted the data into R
