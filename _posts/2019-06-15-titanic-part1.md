@@ -142,6 +142,9 @@ Note whenever you see a #, this signifies a comment, it is not executable code b
 * Women in the first and second class have similar survival rates
 * Master, Miss, and Mrs. have the highest survival rates in the first 2 classes compared to Mr.
 
+<br>
+
+Keep an eye out for the next blog post - creating the predictive model for Titanic survivors.
 
 <figure>
 <a href="/assets/img/1titanic9.jpg"><img src="/assets/img/1titanic9.jpg"></a>
