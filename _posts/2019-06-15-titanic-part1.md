@@ -37,7 +37,7 @@ The data has already been split into a training set and a test set. The training
 
 I suggest thoroughly reading about the variables on Kaggle.
 
-If you have not already done so, download R Studio for free using this link
+If you have not already done so, download R Studio for free using this link <br>
 <a href="https://www.rstudio.com/products/rstudio/download" target="_ blank"> https://www.rstudio.com/products/rstudio/download/</a>.
 <br>
 <br>
