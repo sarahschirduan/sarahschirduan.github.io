@@ -128,13 +128,13 @@ Note whenever you see a #, this signifies a comment, it is not executable code b
 
 ## Review
 
-Accomplishments:
+### Accomplishments:
 * Inputted the data into R
 * Combined the train & test dataset into one dataset
 * Transformed several variables into different character types
 * Created new variables
 
-Findings:
+### Findings:
 * Overall, women are much more likely to survive the sinking of the Titanic than men
 * Men in the third class had the poorest survival rate
 * Women in the first and second class have similar survival rates
