@@ -121,11 +121,11 @@ Let’s look at the ticket variable:
 
 <br>
 
-Note whenever you see a #, this signifies a comment, it is not executable code but is a visible reminder of the purpose for that specific line of code. Because when you’re looking at something weeks later you might not recall the reason for each line of code.
-
 <figure>
 <a href="/assets/img/1titanic8.png"><img src="/assets/img/1titanic8.png"></a>
 </figure>
+
+Note whenever you see a #, this signifies a comment, it is not executable code but is a visible reminder of the purpose for that specific line of code. Because when you’re looking at something weeks later you might not recall the reason for each line of code.
 
 <br>
 
