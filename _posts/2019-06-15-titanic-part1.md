@@ -117,12 +117,13 @@ The average age for passengers with title Master is 6 years old. This confirms M
 
 <br>
 
-Let’s look at the ticket variable. We note that it is a factor with 929 levels. That is too many unique observations for it to really be considered a factor. We need to change it from a factor to a string. We’ll use the as.character function.
+Let’s look at the ticket variable:
+* We note that it is a factor with 929 levels. That is too many unique observations for it to really be considered a factor. We need to change it from a factor to a string. We’ll use the as.character function.
+* After making that change we can preview the data by using the ‘head’ function to ensure it is formatted as we expected.
+* I also want to confirm there are no NA’s for this variable. We can use the sum(is.na(variable)) code. This reveals no NA's.
+
 <br>
-After making that change we can preview the data by using the ‘head’ function to ensure it is formatted as we expected.
-<br>
-I also want to confirm there are no NA’s for this variable. We can use the sum(is.na(variable)) code. This reveals no NA's.
-<br>
+
 Note whenever you see a #, this signifies a comment, it is not executable code but is a visible reminder of the purpose for that specific line of code. Because when you’re looking at something weeks later you might not recall the reason for each line of code.
 
 <figure>
