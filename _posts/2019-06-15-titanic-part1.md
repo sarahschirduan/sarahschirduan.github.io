@@ -37,8 +37,7 @@ The data has already been split into a training set and a test set. The training
 
 I suggest thoroughly reading about the variables on Kaggle.
 
-If you have not already done so, download R Studio for free using this link Video 3: <a href="https://www.rstudio.com/products/rstudio/download"
-target="_ blank"> https://www.rstudio.com/products/rstudio/download/</a>.
+If you have not already done so, download R Studio for free using this link Video 3: <a href="https://www.rstudio.com/products/rstudio/download" target="_ blank"> https://www.rstudio.com/products/rstudio/download/</a>.
 <br>
 <br>
 
@@ -46,7 +45,9 @@ target="_ blank"> https://www.rstudio.com/products/rstudio/download/</a>.
 
 Download files from Kaggle, open in R, then click on train file & test file to get a feel for the variables. We want to combine both sets into one dataset so we can perform summary statistics and variable changes one one dataset instead of two. Yet, when we look at the test dataset, we notice it does not have the same number of columns as the train dataset. This is because it does not have the survived: yes or no variable. We’ll need to add a ‘test.survived’ variable. Instead of editing original test dataset file, we’ll create a copy of the test dataset and simply add the new test.survived variable. We'll fill in "None" for the values in this column because in the test dataset we do not know if the passenger survived.  Please reference GitHub for the detailed code.
 
+
 Next, we’ll create a new data frame which contains all rows from train dataset and from the new test dataset. When I initially used the rbind function to combine the two sets, it did not work. I went back and realized when I created the test.survived variable in the new test dataset, I called the column name ‘survived’ instead of ‘Survived’. Because of this small syntax difference the rbind would not work, so I had to go back and edit the code.
+
 
 Let’s look at the data types to make sure they are appropriate. We find that the Survived variable is categorized as character, however it is made up of ‘0’s (passenger did not survive), ‘1’s (passenger did survive), and ‘None’. Thus, we need to recharacterize this data type to a factor. In this case, the factor will have three levels, 0, 1, or None. The other variable we need to recharacterize is PClass, currently it is an integer 1 (1st class), 2 (2nd class), 3 (3rd class). We don’t care that the numeric value is 1, except that we know 1 means the passenger is in 1st class. Thus, we will also change this variable to a factor.
 <br>
@@ -86,6 +87,7 @@ We can take this a step further and look at it by gender & by class. Men in the 
 
 As we look at the data, we notice in the name variable there is a title, either Master, Miss, Mrs. And Mr.    Langer had the idea of isolating the title and having it as a new variable in the dataset. We'll create a for loop to isolate the title. Please reference the code in GitHub to see exactly how this is done as it gets a little complicated. Once isolated we create a graph to see impact of title on survival rate.
 
+
 This confirms the notion of women and children first. Master, Miss, and Mrs. have the highest survival rates in the first 2 classes compared to Mr.
 
 <figure>
@@ -103,6 +105,7 @@ Let’s look at age next. First, we’ll use a summary function to get basic sta
 <br>
 
 Luckily, we have the newly created title variable which we believe to be something of an indicator for age. Let’s test it out for passengers with the title Master. We’ll create a variable called ‘boys’ populated only with those instances/rows where the title is Master. Next, we’ll look at the age range for boys.
+
 
 The average age for passengers with title Master is 6 years old. This confirms Master equates to male children, max age is 14 ½ .
 
