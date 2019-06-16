@@ -35,6 +35,8 @@ I followed Langer’s code and steps for analyzing this dataset. He does an exce
 
 The data has already been split into a training set and a test set. The training set is the bulk of the total dataset, about 70%, test set is 30%. The training set contains all the variables of the test set, as well as the variable ‘survived’: yes (1) or no (0). The idea is to plug the training set into R, output a predictive model, then test that prediction on the test set. Makes sense, right? We can then look at the predictions for the test set and compare them with actual results from the Titanic sinking to know if our model was a good estimate for a passenger’s survival.
 
+<br>
+
 ## Inputting Data into R
 
 If you have not already done so, download R Studio for free using this link <br>
