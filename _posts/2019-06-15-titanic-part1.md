@@ -140,7 +140,7 @@ Note whenever you see a #, this signifies a comment, it is not executable code b
 * Overall, women are much more likely to survive the sinking of the Titanic than men
 * Men in the third class had the poorest survival rate
 * Women in the first and second class have similar survival rates
-* This confirms the notion of women and children first. Master, Miss, and Mrs. have the highest survival rates in the first 2 classes compared to Mr.
+* Master, Miss, and Mrs. have the highest survival rates in the first 2 classes compared to Mr.
 
 
 <figure>
