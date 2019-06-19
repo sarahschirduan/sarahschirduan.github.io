@@ -12,7 +12,7 @@ comments: true
 
 If you are starting out in data science or analytics, then this post is for you.
 
-I enrolled in a class at St. Joseph's University that teaches how to use R for statistical analysis and graphics. But it has been about a year since I finished the course, so I wanted a refresher about tackling a dataset from start to finish. I checked out interesting projects on Kaggle and came across this dataset about the Titanic
+I enrolled in a class at St. Joseph's University that teaches how to use R for statistical analysis and graphics. But it has been some time since I finished the course, so I wanted a refresher about tackling a dataset from start to finish. I checked out interesting projects on Kaggle and came across this dataset about the Titanic
 <a href="https://www.kaggle.com/c/titanic/data" target="_ blank"> https://www.kaggle.com/c/titanic/data</a>. Go to the site for a thorough description about the variables.
 
 Follow <a href="https://github.com/sarahschirduan/sarahschirduan.github.io/projects" target="_ blank"> this link </a> if you want to see my code.
@@ -144,7 +144,7 @@ Note whenever you see a #, this signifies a comment, it is not executable code b
 
 <br>
 
-Keep an eye out for the next blog post - creating the predictive model for Titanic survivors.
+Keep an eye out for the next blog post - creating the predictive model for who will survive the sinking of the Titanic.
 
 <figure>
 <a href="/assets/img/1titanic9.jpg"><img src="/assets/img/1titanic9.jpg"></a>
