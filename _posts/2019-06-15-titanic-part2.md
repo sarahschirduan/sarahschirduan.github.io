@@ -118,7 +118,7 @@ Then we create a csv file to submit to Kaggle. When you are on the Kaggle page f
 <figure>
 <a href="/assets/img/2titanic9jpg"><img src="/assets/img/2titanic9.jpg"></a>
 </figure>
-
+<br>
 
 Perhaps most satisfying of all, you get to see where your predictions landed. We had a success of 77%, You can see a lot of us have the same success rate, I am at position 6378, but the first instance of that rate was 5736, which is the top 52%. If you’re wondering if I’m annoyed I can’t say Top 50%, the answer is yes… That said, no matter where you land, actually submitting something to Kaggle is a win! Next time you will be even more assured of the process.
 
