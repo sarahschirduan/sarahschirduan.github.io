@@ -2,8 +2,8 @@
 layout: post
 title: "Machine Learning with the Titanic Part 2"
 date: 2019-07-13
-excerpt: "Exploring the Titanic Passengers Dataset"
-feature: /assets/img/2titanic1.jpg
+excerpt: "Exploring the Titanic Passengers Dataset Part 2"
+feature: /assets/img/2titanic1.2.jpg
 tags: [website, post, projects]
 comments: true
 ---
