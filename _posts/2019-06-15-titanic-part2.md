@@ -43,16 +43,16 @@ There are several options when it comes to modeling. One of the more common & ea
 <a href="/assets/img/2titanic13.jpg"><img src="/assets/img/2titanic13.jpg"></a>
 </figure>
 
-For this analysis we will not be using decision trees, but actually a random forest (RF) model. I know, I know – another model type! In a nutshell, an RF model essentially takes the average of hundreds of individual decision trees. This gives us a richer analysis than just one decision tree. Each individual decision tree in an RF model take a sample of all available rows. Some rows are not taken, thus once we get the output of the RF model, we are also given an OOB (out of bag) rows that weren’t selected which gives us a good idea of the success rate of model.
+For this analysis we will not be using decision trees, but actually a random forest (RF) model. I know, I know – another model type! In a nutshell, an RF model essentially takes the average of hundreds of individual decision trees. This gives us a richer analysis than just one decision tree. Each individual decision tree in an RF model takes a <u>sample</u> of all available rows. Some rows are not taken, thus once we get the output of the RF model, we are also given an OOB (out of bag). The model is tested on the OOB rows (the ones not included in any of the decision tree models) which gives us a good idea of the success rate of model.
 
 For our first attempt with this model, we’ll choose passenger class and title of the passenger as predictive variables.
 
 <figure>
 <a href="/assets/img/2titanic14.jpg"><img src="/assets/img/2titanic14.jpg"></a>
 </figure>
+<br>
 
-
-Once the model runs, we see that the overall success rate with just these two factors is 79% which is pretty good.
+Once the model runs, we see that the overall success rate with just these two factors is (1-20.99) 79% which is pretty good.
 
 Let’s take a closer look at the confusion matrix:
 We’ll say the 0 1 rows are our predictions and the 0 1 columns are true. We predicted 536 would not survive and that was correct, we predicted 13 would not survive but they actually did. This gives us a 98% accuracy rate for predicting who would not survive. However, our accuracy rate for survival was only 50% which is not good. We predicted 175 would survive but they died, we correctly predicted 168 would survive.
@@ -60,28 +60,28 @@ We’ll say the 0 1 rows are our predictions and the 0 1 columns are true. We pr
 <figure>
 <a href="/assets/img/2titanic2.jpg"><img src="/assets/img/2titanic2.jpg"></a>
 </figure>
-
+<br>
 
 Let's plot it. This shows us that title is a far more weighty variable than Pclass since the circle is to the far right. Title increases the accuracy of the prediction.
 
 <figure>
 <a href="/assets/img/2titanic3.jpg"><img src="/assets/img/2titanic3.jpg"></a>
 </figure>
-
+<br>
 
 Let’s add in another variable – SipSp. This is called iterative modeling. When you tweak (official term) your model by adding or eliminating factors to get a better success rate on your prediction.  This increased our accuracy to 81.26%.
 
 <figure>
 <a href="/assets/img/2titanic4.jpg"><img src="/assets/img/2titanic4.jpg"></a>
 </figure>
-
+<br>
 
 Let’s add in another variable Parch. Our OOB did not change. However, our predictions in the confusion matrix improved slightly so we will leave it at these four variables.
 
 <figure>
 <a href="/assets/img/2titanic5.jpg"><img src="/assets/img/2titanic5.jpg"></a>
 </figure>
-
+<br>
 
 Like our last plot, this shows title as the most important variable.
 
