@@ -20,6 +20,7 @@ I included his videos below.
 * Video 2: <a href="https://www.youtube.com/watch?v=2nNjvjeAO4s&t=1928s" target="_ blank"> https://www.youtube.com/watch?v=2nNjvjeAO4s&t=1928s </a>.
 
 Follow <a href="https://github.com/sarahschirduan/Current-Projects/blob/master/Titanic.r" target="_ blank"> this link </a> if you want to see my code on GitHub.
+
 <br>
 
 ## Objectives
@@ -28,11 +29,13 @@ In this article I’ll discuss
 * Training & Test Dataset
 * Predictive Model: Decision Trees & Random Forest
 * Submitting the Results to Kaggle
+
 <br>
 
 ## The Data
 
 The data has been split into a training set (70%) and a test set (30%). We’ll train our model using the train data set, then test it on the test data set. We will test several variations of the available factors, which will lead to multiple models. We will submit our final & best model output results to Kaggle. Kaggle will evaluate the accuracy of our model.
+
 <br>
 
 ## Decision Trees & Random Forest
