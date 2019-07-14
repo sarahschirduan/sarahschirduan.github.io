@@ -10,7 +10,7 @@ comments: true
 
 ## Project Overview
 
-If you haven’t read part one of this deep dive into the Titanic dataset, click here <a href="https://sarahschirduan.github.io//titanic-part1" target="_ blank"> </a>.
+If you haven’t read part one of this deep dive into the Titanic dataset, click <a href="https://sarahschirduan.github.io//titanic-part1" target="_ blank"> here </a>.
 
 In case you didn’t click on the link above, the purpose of this project is to create a model that accurately predicts who on the Titanic would survive the sinking of the ship. I found a great tutorial for this dataset on YouTube. I followed a lot of Langer’s code and steps for cleaning and feature engineering of this dataset. When it comes to modeling and testing, our code begins to differ.
 
