@@ -4,7 +4,7 @@ title: "Machine Learning with the Titanic Part 2"
 date: 2019-07-13
 excerpt: "Exploring the Titanic Passengers Dataset Part 2"
 feature: /assets/img/2titanic1.8.jpg
-tags: [website, post, projects]
+tags: [website, post, projects] 
 comments: true
 ---
 
