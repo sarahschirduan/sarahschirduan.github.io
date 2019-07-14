@@ -86,7 +86,7 @@ Let’s add in another variable Parch. Our OOB did not change. However, our pred
 </figure>
 <br>
 
-<center>Like our last plot, this shows title as the most important variable.</center>
+<center>Like our last plot, this shows title as the most important variable by far.</center>
 
 <figure>
 <a href="/assets/img/2titanic6jpg"><img src="/assets/img/2titanic6.jpg"></a>
@@ -98,7 +98,7 @@ Reminders: There is a total of 1309 rows in our dataset, for our RF model we jus
 
 The Test.submit data frame takes the test rows from the data.combined dataset (892:1309) and only takes certain columns: Pclass, Title, SibSp, and Parch.
 
-Next we’ll make predictions using predict function, taking our random forest object/final random forest model we decided on and apply it to the test.submit data frame.
+Next we’ll make predictions using the predict function, taking our random forest object/final random forest model we decided on and apply it to the test.submit data frame.
 
 Looking at the table we see it outputs 262 did not survive and 156 did survive.
 
@@ -107,14 +107,14 @@ Looking at the table we see it outputs 262 did not survive and 156 did survive.
 </figure>
 
 
-Then we create a csv file to submit to Kaggle. Follow the Kaggle instructions for sending in the link. This is the first time I’ve done this and it literally took 2 minutes.
+Then we create a csv file to submit to Kaggle. When you are on the Kaggle page for the competition, simply click on the "Submit Predictions" button. This is the first time I’ve done this and it literally took 2 minutes.
 
-R Code
+<center>R Code<center/>
 <figure>
 <a href="/assets/img/2titanic8jpg"><img src="/assets/img/2titanic8.jpg"></a>
 </figure>
 
-Kaggle
+<center>Kaggle<center/>
 <figure>
 <a href="/assets/img/2titanic9jpg"><img src="/assets/img/2titanic9.jpg"></a>
 </figure>
