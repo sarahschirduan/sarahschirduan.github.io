@@ -86,7 +86,7 @@ Let’s add in another variable Parch. Our OOB did not change. However, our pred
 </figure>
 <br>
 
-<c>Like our last plot, this shows title as the most important variable.</c>
+<center>Like our last plot, this shows title as the most important variable.</center>
 
 <figure>
 <a href="/assets/img/2titanic6jpg"><img src="/assets/img/2titanic6.jpg"></a>
