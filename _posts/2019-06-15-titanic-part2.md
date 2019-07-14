@@ -113,6 +113,7 @@ Then we create a csv file to submit to Kaggle. When you are on the Kaggle page f
 <figure>
 <a href="/assets/img/2titanic8jpg"><img src="/assets/img/2titanic8.jpg"></a>
 </figure>
+<br>
 
 <center>Kaggle</center>
 <figure>
