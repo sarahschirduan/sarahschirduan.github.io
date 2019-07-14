@@ -109,12 +109,12 @@ Looking at the table we see it outputs 262 did not survive and 156 did survive.
 
 Then we create a csv file to submit to Kaggle. When you are on the Kaggle page for the competition, simply click on the "Submit Predictions" button. This is the first time I’ve done this and it literally took 2 minutes.
 
-<center>R Code<center/>
+<center>R Code</center>
 <figure>
 <a href="/assets/img/2titanic8jpg"><img src="/assets/img/2titanic8.jpg"></a>
 </figure>
 
-<center>Kaggle<center/>
+<center>Kaggle</center>
 <figure>
 <a href="/assets/img/2titanic9jpg"><img src="/assets/img/2titanic9.jpg"></a>
 </figure>
