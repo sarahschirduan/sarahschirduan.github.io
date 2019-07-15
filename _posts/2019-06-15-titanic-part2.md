@@ -55,7 +55,7 @@ For our first attempt with this model, we’ll choose passenger class and title 
 </figure>
 <br>
 
-Once the model runs, we see that the overall success rate with just these two factors is (1-20.99) 79% which is pretty good.
+Once the model runs, we see that the overall success rate with just these two factors is 79% (1-20.99%) which is pretty good.
 
 Let’s take a closer look at the confusion matrix:
 We’ll say the 0 1 rows are our predictions and the 0 1 columns are true. We predicted 536 would not survive and that was correct, we predicted 13 would not survive but they actually did. This gives us a 98% accuracy rate for predicting who would not survive. However, our accuracy rate for survival was only 50% which is not good. We predicted 175 would survive but they died, we correctly predicted 168 would survive.
@@ -65,7 +65,7 @@ We’ll say the 0 1 rows are our predictions and the 0 1 columns are true. We pr
 </figure>
 <br>
 
-Let's plot it. This shows us that title is a far more weighty variable than Pclass since the circle is to the far right. Title increases the accuracy of the prediction.
+Let's plot it. The way to read this plot is by looking at the increasing x-axis. Since the Title variable is to the far right, we know that Title is a far more weighty variable than Pclass. 
 
 <figure>
 <a href="/assets/img/2titanic3.jpg"><img src="/assets/img/2titanic3.jpg"></a>
