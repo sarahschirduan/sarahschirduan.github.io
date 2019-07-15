@@ -3,7 +3,7 @@ layout: post
 title: "Machine Learning with the Titanic Part 2"
 date: 2019-07-13
 excerpt: "Exploring the Titanic Passengers Dataset Part 2"
-feature: /assets/img/drowning.jpg
+feature: /assets/img/photo.jpg
 tags: [website, post, projects]
 comments: true
 ---
@@ -79,7 +79,7 @@ Let’s add in another variable – SipSp. This is called iterative modeling. Wh
 </figure>
 <br>
 
-Let’s add in another variable Parch. Our OOB did not change. However, our predictions in the confusion matrix improved slightly so we will leave it at these four variables.
+Let’s add in another variable - Parch. Our OOB did not change. However, our predictions in the confusion matrix improved slightly so we will leave it at these four variables.
 
 <figure>
 <a href="/assets/img/2titanic5.jpg"><img src="/assets/img/2titanic5.jpg"></a>
