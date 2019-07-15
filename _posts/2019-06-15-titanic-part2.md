@@ -65,7 +65,7 @@ We’ll say the 0 1 rows are our predictions and the 0 1 columns are true. We pr
 </figure>
 <br>
 
-Let's plot it. The way to read this plot is by looking at the increasing x-axis. Since the Title variable is to the far right, we know that Title is a far more weighty variable than Pclass. 
+Let's plot it. The way to read this plot is by looking at the increasing x-axis. Since the title variable is to the far right, we know that title is a far more weighty variable than Pclass.
 
 <figure>
 <a href="/assets/img/2titanic3.jpg"><img src="/assets/img/2titanic3.jpg"></a>
