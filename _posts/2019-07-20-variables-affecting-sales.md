@@ -2,8 +2,8 @@
 layout: post
 title: "Using Regression to Determine if Inventory or Traffic has a Greater Impact on Sales"
 date: 2019-07-20
-excerpt: "Utilizing both R & Excel to Determine Impact of Certain Variables on Sales"
-feature: /assets/img/Shopping.jpeg
+excerpt: "Utilizing both R & Excel to Determine Impact of Variables"
+feature: /assets/img/Shopping2.jpg
 tags: [website, post, projects]
 comments: true
 ---
@@ -31,7 +31,7 @@ I inputted the data into R and attached headers to the column. Click <a href="ht
 
 Next, I used the summary formula to look at basic stats and the str formula to look at data types.
 
-Summary Stats: We can see there are 200 stores, sales range from $16k to $73k, inventory ranges from $184k to $1M, traffic ranges from 1300 people to 7800 people.
+Summary Stats: We can see there are 200 Stores, Sales range from $16k to $73k, Inventory ranges from $184k to $1M, Traffic ranges from 1300 people to 7800 people.
 
 Data Types: Sales, OH, and Traffic should be integers. Store is more of an identifier so we won’t be using it.
 
