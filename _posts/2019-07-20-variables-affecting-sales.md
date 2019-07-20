@@ -3,7 +3,7 @@ layout: post
 title: "Using Regression to Determine if Inventory or Traffic has a Greater Impact on Sales"
 date: 2019-07-20
 excerpt: "Utilizing both R & Excel to Determine Impact of Variables"
-feature: /assets/img/Shopping2.jpg
+feature: /assets/img/Shopping3.jpg
 tags: [website, post, projects]
 comments: true
 ---
