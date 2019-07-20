@@ -27,9 +27,9 @@ Independent Variables:
 
 ## Exploring the Data
 
-I inputted the data into R and attached headers to the column. Click <a href="https://github.com/sarahschirduan/Current-Projects/blob/master/Inventory.r" target="_ blank"> here </a> for my code on GitHub. Click <a href="https://github.com/sarahschirduan/Current-Projects/blob/master/Regression.Inv.csv" target="_ blank"> here </a> for the csv file.
+I inputted the data into R and attached headers to the column. Click <a href="https://github.com/sarahschirduan/Current-Projects/blob/master/Inventory.r" target="_ blank">here </a> for my code on GitHub. Click <a href="https://github.com/sarahschirduan/Current-Projects/blob/master/Regression.Inv.csv" target="_ blank">here </a> for the csv file.
 
-Next, I used the summary formula to look at basic stats and the str formula to look at data types.
+Next, I used the 'summary' formula to look at basic stats and the 'str' formula to look at data types.
 
 Summary Stats: We can see there are 200 Stores, Sales range from $16k to $73k, Inventory ranges from $184k to $1M, Traffic ranges from 1300 people to 7800 people.
 
@@ -49,7 +49,8 @@ Once we use the lm formula in R to understand the impact Inventory and Traffic h
 First, let’s confirm the P value and T values are within an acceptable range. Because if not, we can’t move forward with the rest of the analysis.
 
 *	The p value is at the bottom of this screenshot, < 2.2e-16 or (0.00000000000000022), this is obviously less than 0.05, so it passes the test.
-*	The t values for the variable are under the Pr(>t) column at <2e-16 and <2e-16, meaning they are both      < 0.05.
+*	The t values for the variable are under the Pr(>t) column at <2e-16 and <2e-16, meaning they are both
+< 0.05.
 
 Adjusted R Square
 *	The Adjusted R Square value is .9414, meaning the variables in the analysis explain the sales by 94.14% which is fantastic.
@@ -94,7 +95,7 @@ There has to be enough Inventory in the stores for customers to buy, but Traffic
 
 ### How to do Regression in Excel
 
-Click <a href="https://github.com/sarahschirduan/Current-Projects/blob/master/Regression.Inv.Excel.xlsx" target="_ blank"> here </a> for the Excel file.
+Click <a href="https://github.com/sarahschirduan/Current-Projects/blob/master/Regression.Inv.Excel.xlsx" target="_ blank">here </a> for the Excel file.
 
 1.	Click on Data Analysis (You may have to download the Data Analysis Toolpak first)
 2.	Select Regression
