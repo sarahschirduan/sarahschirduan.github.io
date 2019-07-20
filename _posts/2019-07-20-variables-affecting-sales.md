@@ -49,14 +49,14 @@ Once we use the lm formula in R to understand the impact Inventory and Traffic h
 First, let’s confirm the P value and T values are within an acceptable range. Because if not, we can’t move forward with the rest of the analysis.
 
 *	The p value is at the bottom of this screenshot, < 2.2e-16 or (0.00000000000000022), this is obviously less than 0.05, so it passes the test.
-*	The t values for the variable are under the Pr(>t) column at <2e-16 and <2e-16, meaning they are both < 0.05.
+*	The t values for the variable are under the Pr(>t) column at <2e-16 and <2e-16, meaning they are both      < 0.05.
 
 Adjusted R Square
 *	The Adjusted R Square value is .9414, meaning the variables in the analysis explain the sales by 94.14% which is fantastic.
 
 Variables
 *	Let’s start with OH, the estimate column shows us 3.429e-02 = 0.034, meaning for every 1 increase in Retail Inventory OH, Sales increase by about 3 cents. Not impressive.
-*	For every additional person that walks through the door, sales increase by $5.44 dollars. This strongly coveys how critical it is to drive traffic to the stores.
+*	For every additional person that walks through the door, sales increase by $5.44 dollars. This tells us how critical it is to drive traffic to the stores.
 
 <figure>
 <a href="/assets/img/sales3.png"><img src="/assets/img/sales3.png"></a>
