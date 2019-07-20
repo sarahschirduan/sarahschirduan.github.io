@@ -27,7 +27,7 @@ Independent Variables:
 
 ## Exploring the Data
 
-I inputted the data into R and attached headers to the column. Click <a href="https://github.com/sarahschirduan/Current-Projects/blob/master/Inventory.r" target="_ blank">here </a> for my code on GitHub. Click <a href="https://github.com/sarahschirduan/Current-Projects/blob/master/Regression.Inv.csv" target="_ blank">here </a> for the csv file.
+I inputted the data into R and attached headers to the column. Click<a href="https://github.com/sarahschirduan/Current-Projects/blob/master/Inventory.r" target="_ blank">here </a> for my code on GitHub. Click<a href="https://github.com/sarahschirduan/Current-Projects/blob/master/Regression.Inv.csv" target="_ blank">here </a> for the csv file.
 
 Next, I used the 'summary' formula to look at basic stats and the 'str' formula to look at data types.
 
