@@ -48,10 +48,12 @@ Data Types: Sales, OH, and Traffic should be integers. Store is more of an ident
 Once we use the lm formula in R to understand the impact Inventory and Traffic have on Sales, we see the below output.
 First, let’s confirm the P value and T values are within an acceptable range. Because if not, we can’t move forward with the rest of the analysis.
 
-*	The p value is at the bottom of this screenshot, < 2.2e-16, this is < 0.05, so it passes the test.
+*	The p value is at the bottom of this screenshot, < 2.2e-16 or (0.00000000000000022), this is obviously less than 0.05, so it passes the test.
 *	The t values for the variable are under the Pr(>t) column at <2e-16 and <2e-16, meaning they are both < 0.05.
-Adjusted R Square Value
+
+Adjusted R Square
 *	The Adjusted R Square value is .9414, meaning the variables in the analysis explain the sales by 94.14% which is fantastic.
+
 Variables
 *	Let’s start with OH, the estimate column shows us 3.429e-02 = 0.034, meaning for every 1 increase in Retail Inventory OH, Sales increase by about 3 cents. Not impressive.
 *	For every additional person that walks through the door, sales increase by $5.44 dollars. This strongly coveys how critical it is to drive traffic to the stores.
@@ -60,7 +62,7 @@ Variables
 <a href="/assets/img/sales3.png"><img src="/assets/img/sales3.png"></a>
 </figure>
 
-###Equation
+### Equation
 
 *	Let’s bring it all together. We have the intercept at 2,594. We already looked at variables.
 *	Y = m(x) + b
@@ -71,13 +73,13 @@ Variables
 *	We know from below that actual Sales were 62,957, so it was -13% lower than anticipated (62,957/54,860-1).
 *	I repeated this process with the second value and it was about 11% higher than anticipated.
 
-We didn’t expect the calculation to be perfect, after all the equation is created from all the values, so it’s meant to approximate Sales. Nevertheless, this is helpful to know.
+We didn’t expect the calculation to be perfect, after all the equation is created from all the values, so it’s meant to approximate Sales. Nevertheless, this is extremely helpful.
 
 <figure>
 <a href="/assets/img/sales4.png"><img src="/assets/img/sales4.png"></a>
 </figure>
 
-###Plot
+### Plot
 
 Let’s also do a plot to look at the impact. This gives us an immediate picture of the direct positive relationship between Traffic and Sales.
 
@@ -85,12 +87,12 @@ Let’s also do a plot to look at the impact. This gives us an immediate picture
 <a href="/assets/img/sales5.png"><img src="/assets/img/sales5.png"></a>
 </figure>
 
-##Summary
+## Summary
 
-There has to be enough inventory in the stores for customers to buy, but traffic is the main driver for Sales. Even the quick plot shows the close relationship between Sales and Traffic. Thus, we recommend the company concentrate efforts on drawing consumers to the store.
+There has to be enough Inventory in the stores for customers to buy, but Traffic is the main driver for Sales. Even the quick plot shows the close relationship between Sales and Traffic. Thus, we recommend the company concentrate efforts on drawing consumers to the store.
 
 
-###How to do Regression in Excel
+### How to do Regression in Excel
 
 Click <a href="https://github.com/sarahschirduan/Current-Projects/blob/master/Regression.Inv.Excel.xlsx" target="_ blank"> here </a> for the Excel file.
 
@@ -109,6 +111,12 @@ This is what the output looks like. Thankfully, it matches R so we know we execu
 <a href="/assets/img/sales7.png"><img src="/assets/img/sales7.png"></a>
 </figure>
 
-Bottom line – use whichever tool you are more familiar with, whether that’s Excel or R.
+<b>Bottom line – use whichever tool you are more familiar with, whether that’s Excel or R</b>.
 
 <i>Note: I made up the Sales, Traffic, and OH data in this dataset</i>.
+
+Now to leave you with an image that will scare you into shopping more...
+
+<figure>
+<a href="/assets/img/creepy.jpg"><img src="/assets/img/creepy.jpg"></a>
+</figure>
