@@ -91,10 +91,12 @@ Let’s also do a plot to look at the impact. This gives us an immediate picture
 
 There has to be enough Inventory in the stores for customers to buy, but Traffic is the main driver for Sales. Even the quick plot shows the close relationship between Sales and Traffic. Thus, we recommend the company concentrate efforts on drawing consumers to the store.
 
+<br>
+<br>
 
 ### How to do Regression in Excel
 
-Click <a href="https://github.com/sarahschirduan/Current-Projects/blob/master/Regression.Inv.Excel.xlsx" target="_ blank">here </a> for the Excel file.
+Click <a href="https://github.com/sarahschirduan/Current-Projects/blob/master/Regression.Inv.Excel.xlsx" target="_ blank">here</a> for the Excel file.
 
 1.	Click on Data Analysis (You may have to download the Data Analysis Toolpak first)
 2.	Select Regression
