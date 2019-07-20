@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Using Regression to Determine if Inventory or Traffic has a greater impact on Sales"
+title: "Using Regression to Determine if Inventory or Traffic has a Greater Impact on Sales"
 date: 2019-07-20
-excerpt: "Looking at Variable Impact on Sales in R & Excel"
-feature: /assets/img/Shopping.jpg
+excerpt: "Utilizing both R & Excel to Determine Impact of Certain Variables on Sales"
+feature: /assets/img/Shopping.jpeg
 tags: [website, post, projects]
 comments: true
 ---
@@ -15,11 +15,6 @@ We are going to look at which factor has a greater impact on the amount of Retai
 <br>
 
 ## Variables
-
-In this article I’ll discuss
-* Training & Test Dataset
-* Predictive Model: Decision Trees & Random Forest
-* Submitting the Results to Kaggle
 
 Dependent Variable:
 * Retail Sold during a particular week
@@ -34,8 +29,10 @@ Independent Variables:
 
 I inputted the data into R and attached headers to the column. Click <a href="https://github.com/sarahschirduan/Current-Projects/blob/master/Inventory.r" target="_ blank"> here </a> for my code on GitHub. Click <a href="https://github.com/sarahschirduan/Current-Projects/blob/master/Regression.Inv.csv" target="_ blank"> here </a> for the csv file.
 
-Next, I used the summary formula to look at basic stats for each of the columns.
+Next, I used the summary formula to look at basic stats and the str formula to look at data types.
+
 Summary Stats: We can see there are 200 stores, sales range from $16k to $73k, inventory ranges from $184k to $1M, traffic ranges from 1300 people to 7800 people.
+
 Data Types: Sales, OH, and Traffic should be integers. Store is more of an identifier so we won’t be using it.
 
 <figure>
