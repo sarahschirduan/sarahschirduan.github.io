@@ -118,6 +118,7 @@ This is what the output looks like. Thankfully, it matches R so we know we execu
 <i>Note: I made up the Sales, Traffic, and OH data in this dataset</i>.
 
 <br>
+<br> 
 
 Now to leave you with an image that will scare you into shopping more...
 
