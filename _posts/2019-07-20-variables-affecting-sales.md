@@ -27,7 +27,7 @@ Independent Variables:
 
 ## Exploring the Data
 
-I inputted the data into R and attached headers to the column. Click<a href="https://github.com/sarahschirduan/Current-Projects/blob/master/Inventory.r" target="_ blank">here </a> for my code on GitHub. Click<a href="https://github.com/sarahschirduan/Current-Projects/blob/master/Regression.Inv.csv" target="_ blank">here </a> for the csv file.
+I inputted the data into R and attached headers to the column. Click <a href="https://github.com/sarahschirduan/Current-Projects/blob/master/Inventory.r" target="_ blank">here</a> for my code on GitHub. Click <a href="https://github.com/sarahschirduan/Current-Projects/blob/master/Regression.Inv.csv" target="_ blank">here</a> for the csv file.
 
 Next, I used the 'summary' formula to look at basic stats and the 'str' formula to look at data types.
 
@@ -50,6 +50,7 @@ First, let’s confirm the P value and T values are within an acceptable range. 
 
 *	The p value is at the bottom of this screenshot, < 2.2e-16 or (0.00000000000000022), this is obviously less than 0.05, so it passes the test.
 *	The t values for the variable are under the Pr(>t) column at <2e-16 and <2e-16, meaning they are both
+
 < 0.05.
 
 Adjusted R Square
