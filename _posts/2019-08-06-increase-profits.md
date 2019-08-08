@@ -65,11 +65,15 @@ Next, I wanted to look at Revenue by Product Line, using similar coding as in th
 <a href="/assets/img/Tough3.png"><img src="/assets/img/Tough3.png"></a>
 </figure>
 
+<br>
+
 I also did a graph of GM by Product Line. Outdoor Protection has the highest GM – the greatest profitability, however it is the lowest in Revenue. Tough & Stuff would do well to focus on growing sales in this department.
 
 <figure>
 <a href="/assets/img/Tough4.png"><img src="/assets/img/Tough4.png"></a>
 </figure>
+
+<br>
 
 Let’s examine highest sales by Product Line. Personal Accessories, increased by $64M in 2005, $138M in 2006, decreased by $150M in 2007. If not for the sizable decrease in Personal Accessories, total sales would have dropped 15% instead of 25% from 2006 to 2007.  Looking further into the change from 2006 to 2007 by Product Type, we can see the driver is Eyewear which decreased by $60M & it lost 2 points in GM which has a great impact on gross profit and the bottom line. The next highest loss was Watches which decreased by $57M & lost 0.4 points in GM.
 
@@ -77,17 +81,23 @@ Let’s examine highest sales by Product Line. Personal Accessories, increased b
 <a href="/assets/img/Tough5.png"><img src="/assets/img/Tough5.png"></a>
 </figure>
 
+<br>
+
 Eyewear & Watches have the highest average GM out of the 5 Product Types within the Personal Accessories Product Line, thus, Tough & Stuff needs to focus on increasing GM & Sales in those two lines.
 
 <figure>
 <a href="/assets/img/Tough6.png"><img src="/assets/img/Tough6.png"></a>
 </figure>
 
+<br>
+
 Camping Equipment is the next highest Revenue department, which also had the next largest drop in Revenue. Tents decreased by $52M, and unlike the Personal Accessories Line, the rest of the product types decreased by a similar amount, about $25M. GM decreased across all Product Types, except Tents. It would be worthwhile to do some market research to see if camping equipment is decreasing for competitors as well or if perhaps the product selection is poor.
 
 <figure>
 <a href="/assets/img/Tough7.png"><img src="/assets/img/Tough7.png"></a>
 </figure>
+
+<br>
 
 Next I did a graph of Revenue by Country (in the code I switched the x and y axis using coord_flip()). The top five countries with the highest sales are: U.S., Japan, China, Canada, and France. I also did an analysis of Country by GM, however all values ranged from 44.57 to 45.81, thus GM by Country is not the root of decreased profits. Let’s look at the top 5 countries from 2004 to 2007 to see if we notice Revenue significantly decreasing and increasing.
 
@@ -105,11 +115,15 @@ The countries with the highest sales variation % are Denmark at -40% and Mexico 
 <a href="/assets/img/Tough9.png"><img src="/assets/img/Tough9.png"></a>
 </figure>
 
+<br>
+
 Now, we want to examine revenue by order method. The website is clearly the primary method for sales (nearly 80% of total) The conclusion with this is for Tough & Stuff to concentrate on the website.
 
 <figure>
 <a href="/assets/img/Tough10.png"><img src="/assets/img/Tough10.png"></a>
 </figure>
+
+<br>
 
 I then did a table of average GM by Order Method Type. All the other Order Methods (except for Fax) have a lower GM than the Web. Telephone & Sales Visit represent 14% of Sales – the GM for those combined is 40% - over a point lower than Web avg of 41.3%
 Consider eliminating all methods except for the website.
@@ -134,7 +148,7 @@ Product Lines:
     For years, when it is 2005, it is most likely to meet its goal with a coefficient value of 2.2. When its 2006, it is less likely to meet Goals with a coefficient value at 1.4. The next year, 2007 was slightly lower at 1.2. The conclusion we can draw from this is perhaps the Planned Revenue Goals in 2005 were realistic. We need to ascertain if Goals drastically increased for following years. 	
 
 <figure>
-<a href="/assets/img/Tough12.jpg"><img src="/assets/img/Tough12.jpg"></a>
+<a href="/assets/img/Tough12.png"><img src="/assets/img/Tough12.png"></a>
 </figure>
 
 We also want to find out if there are any predictors of Revenue. Using Revenue as the continuous dependent variable, and Order Method, Product Line, Product Type, Retail Country, and Year as the categorical independent variables. Because the dependent variable is continuous, I used a standard linear model in R.  I originally had Product Type in the equation, but it did not improve the Adj R Square, so I removed it.
