@@ -3,7 +3,7 @@ layout: post
 title: "Finding Opportunities for Increased Profits"
 date: 2019-08-06
 excerpt: "Using R to Explore Sales & Margin"
-feature: /assets/img/profits3.png
+feature: /assets/img/profits2.png
 tags: [website, post, projects]
 comments: true
 ---
@@ -44,7 +44,7 @@ Variables:
 ## Summary Stats
 
 <figure>
-<a href="/assets/img/Tough1.png"><img src="/assets/img/Tough1.png"></a>
+<a href="/assets/img/Tough1.png"><img src="/assets/img/Tough1.1.jpg"></a>
 </figure>
 
 I used GGPLOT format for the graph to the left, geom_bar makes it a bar chart, “skyblue” produces a light blue color. Theme_bw gives it a clean look, I specified the names of the labels on the y axis, got rid of the grid lines, then centered the title.
