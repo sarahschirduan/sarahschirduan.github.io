@@ -133,9 +133,9 @@ Product Lines:
   Years:
     For years, when it is 2005, it is most likely to meet its goal with a coefficient value of 2.2. When its 2006, it is less likely to meet Goals with a coefficient value at 1.4. The next year, 2007 was slightly lower at 1.2. The conclusion we can draw from this is perhaps the Planned Revenue Goals in 2005 were realistic. We need to ascertain if Goals drastically increased for following years. 	
 
-    <figure>
-    <a href="/assets/img/Tough12.jpg"><img src="/assets/img/Tough12.jpg"></a>
-    </figure>
+<figure>
+<a href="/assets/img/Tough12.jpg"><img src="/assets/img/Tough12.jpg"></a>
+</figure>
 
 We also want to find out if there are any predictors of Revenue. Using Revenue as the continuous dependent variable, and Order Method, Product Line, Product Type, Retail Country, and Year as the categorical independent variables. Because the dependent variable is continuous, I used a standard linear model in R.  I originally had Product Type in the equation, but it did not improve the Adj R Square, so I removed it.
 
