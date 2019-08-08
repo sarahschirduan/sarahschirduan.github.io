@@ -3,7 +3,7 @@ layout: post
 title: "Finding Opportunities for Increased Profits"
 date: 2019-08-06
 excerpt: "Using R to Explore Sales & Margin"
-feature: /assets/img/Shopping3.jpg
+feature: /assets/img/profits.jpg
 tags: [website, post, projects]
 comments: true
 ---
