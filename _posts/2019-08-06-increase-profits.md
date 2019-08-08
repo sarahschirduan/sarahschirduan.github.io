@@ -118,8 +118,6 @@ Consider eliminating all methods except for the website.
 <a href="/assets/img/Tough11.png"><img src="/assets/img/Tough11.png"></a>
 </figure>
 
-<br>
-
 ## Modeling
 
 We want to determine if there is a link between Actual Revenue and meeting Planned Revenue. We will use a generalized linear model because we have a categorical binary variable as the dependent variable. Revenue is the only continuous dependent variable. Retailer Country, Product Line, and Year are categorical as well – I put as.factor() before the variables so R would know these variables are not continuous.
@@ -136,7 +134,7 @@ Product Lines:
     For years, when it is 2005, it is most likely to meet its goal with a coefficient value of 2.2. When its 2006, it is less likely to meet Goals with a coefficient value at 1.4. The next year, 2007 was slightly lower at 1.2. The conclusion we can draw from this is perhaps the Planned Revenue Goals in 2005 were realistic. We need to ascertain if Goals drastically increased for following years. 	
 
     <figure>
-    <a href="/assets/img/Tough12.png"><img src="/assets/img/Tough12.png"></a>
+    <a href="/assets/img/Tough12.jpg"><img src="/assets/img/Tough12.jpg"></a>
     </figure>
 
 We also want to find out if there are any predictors of Revenue. Using Revenue as the continuous dependent variable, and Order Method, Product Line, Product Type, Retail Country, and Year as the categorical independent variables. Because the dependent variable is continuous, I used a standard linear model in R.  I originally had Product Type in the equation, but it did not improve the Adj R Square, so I removed it.
