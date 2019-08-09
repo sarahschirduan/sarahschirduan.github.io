@@ -138,13 +138,14 @@ We want to determine if there is a link between Actual Revenue and meeting Plann
 
 The output below reveals there are only a few variables have a low enough P value to pass the T Test.
 
-Countries:
-  A few countries pass the test, however the coefficients are very low. For example, Belgium has a coefficient value of 0.3, meaning that if the Country is Belgium it is slightly more likely to meet Planned Revenue than the other countries. Given how low the coefficient value is though, it not worthwhile to consider Belgium or the other countries that pass the T test (China, Finland, Korea, Mexico, Netherlands, Singapore, US).
+<b>Countries:</b>
+* A few countries pass the test, however the coefficients are very low. For example, Belgium has a coefficient value of 0.3, meaning that if the Country is Belgium it is slightly more likely to meet Planned Revenue than the other countries. Given how low the coefficient value is though, it not worthwhile to consider Belgium or the other countries that pass the T test (China, Finland, Korea, Mexico, Netherlands, Singapore, US).
 
-Product Lines:
+<b>Product Lines:</b>
+
   However, the Product Lines do have higher coefficient values. Golf Equipment has a coefficient value of -1, Mountaineering Equipment at 0.4, Outdoor Protection at 1.5, and Personal Accessories at 1. Thus, when the Product Line is Golf Equipment, it is less likely to meet Planned Goals. When it is Outdoor Protection, it is most likely to meet goals. Mountaineering Equipment & Personal Accessories are also more likely to meet their Sales Goal.
 
-  Years:
+  <b>Years:</b>
     For years, when it is 2005, it is most likely to meet its goal with a coefficient value of 2.2. When its 2006, it is less likely to meet Goals with a coefficient value at 1.4. The next year, 2007 was slightly lower at 1.2. The conclusion we can draw from this is perhaps the Planned Revenue Goals in 2005 were realistic. We need to ascertain if Goals drastically increased for following years. 	
 
 <figure>
