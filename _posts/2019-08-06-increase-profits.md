@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Finding Opportunities for Increased Profits"
-date: 2019-08-06
+date: 2019-08-08
 excerpt: "Using R to Explore Sales & Margin"
 feature: /assets/img/profits2.png
 tags: [website, post, projects]
