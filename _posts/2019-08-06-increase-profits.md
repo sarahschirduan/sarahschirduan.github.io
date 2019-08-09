@@ -72,7 +72,7 @@ Next, I wanted to look at Revenue by Product Line, using similar coding as in th
 I also did a graph of GM by Product Line. Outdoor Protection has the highest GM – the greatest profitability, however it is the lowest in Revenue. Tough & Stuff would do well to focus on growing sales in this department.
 
 <figure>
-<a href="/assets/img/Tough4.png"><img src="/assets/img/Tough4.png" style="width:500px; height:500px"></a>
+<a href="/assets/img/Tough4.png"><img src="/assets/img/Tough4.png" style="width:400px; height:466px"></a>
 </figure>
 
 <br>
