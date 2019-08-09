@@ -105,6 +105,8 @@ Next I did a graph of Revenue by Country (in the code I switched the x and y axi
 <a href="/assets/img/Tough8.png"><img src="/assets/img/Tough8.png"></a>
 </figure>
 
+<br>
+
 Due to the massive decrease in Sales from 2006 to 2007, let’s look at the countries that have the largest decreases compared to the average. Average variation dollars = $18M (average decrease of $18M from 2006 to 2007. Average variation percent = 25.31%.  
 
 The country with the highest decrease from 2006 to 2007 is the U.S. at -$66M or -26% which is troubling given the U.S. is the country with the most sales. The next largest decreases are -$29M (Japan), -$28M (China), and -$25M (Canada).
