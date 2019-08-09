@@ -59,6 +59,8 @@ I want to get more specific details about Sales by Year.  I utilized the DPLYR p
 
 Max Revenue and GM increase from 2004 to 2006, then drops in 2007. Given this information, we might surmise that in years 2005 & 2006 there were larger orders that tipped the average into a much higher range or that something drastically changed to affect all those factors in 2007 – whether a country stopped ordering or perhaps a Product Line had higher costs, and fewer sales.
 
+<br>
+
 Next, I wanted to look at Revenue by Product Line, using similar coding as in the prior graph. Personal Accessories, Camping Equipment, & Golf Equipment are the top categories.
 
 <figure>
