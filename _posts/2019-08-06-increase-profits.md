@@ -18,7 +18,7 @@ I inputted the data into R and attached headers to the column. Click <a href="ht
 
 ## Data
 
-Variables:
+<b>Variables:</b>
 *	Number of Rows = 24,666
 *	Year: 2004-2007
 *	Product Line – Product Type
