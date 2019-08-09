@@ -64,7 +64,7 @@ Max Revenue and GM increase from 2004 to 2006, then drops in 2007. Given this in
 Next, I wanted to look at Revenue by Product Line, using similar coding as in the prior graph. Personal Accessories, Camping Equipment, & Golf Equipment are the top categories.
 
 <figure>
-<a href="/assets/img/Tough3.png"><img src="/assets/img/Tough3.png"></a>
+<a href="/assets/img/Tough3.png"><img src="/assets/img/Tough3.png" style="width:500px; height:500px"></a>
 </figure>
 
 <br>
@@ -72,7 +72,7 @@ Next, I wanted to look at Revenue by Product Line, using similar coding as in th
 I also did a graph of GM by Product Line. Outdoor Protection has the highest GM – the greatest profitability, however it is the lowest in Revenue. Tough & Stuff would do well to focus on growing sales in this department.
 
 <figure>
-<a href="/assets/img/Tough4.png"><img src="/assets/img/Tough4.png"></a>
+<a href="/assets/img/Tough4.png"><img src="/assets/img/Tough4.png" style="width:500px; height:500px"></a>
 </figure>
 
 <br>
@@ -104,7 +104,7 @@ Camping Equipment is the next highest Revenue department, which also had the nex
 Next I did a graph of Revenue by Country (in the code I switched the x and y axis using coord_flip()). The top five countries with the highest sales are: U.S., Japan, China, Canada, and France. I also did an analysis of Country by GM, however all values ranged from 44.57 to 45.81, thus GM by Country is not the root of decreased profits. Let’s look at the top 5 countries from 2004 to 2007 to see if we notice Revenue significantly decreasing and increasing.
 
 <figure>
-<a href="/assets/img/Tough8.png"><img src="/assets/img/Tough8.png"></a>
+<a href="/assets/img/Tough8.png"><img src="/assets/img/Tough8.png" style="width:500px; height:500px"></a>
 </figure>
 
 <br>
@@ -124,7 +124,7 @@ The countries with the highest sales variation % are Denmark at -40% and Mexico 
 Now, we want to examine revenue by order method. The website is clearly the primary method for sales (nearly 80% of total) The conclusion with this is for Tough & Stuff to concentrate on the website.
 
 <figure>
-<a href="/assets/img/Tough10.png"><img src="/assets/img/Tough10.png"></a>
+<a href="/assets/img/Tough10.png"><img src="/assets/img/Tough10.png" style="width:500px; height:500px"></a>
 </figure>
 
 <br>
