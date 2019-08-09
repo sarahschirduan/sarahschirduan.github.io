@@ -44,7 +44,7 @@ I inputted the data into R and attached headers to the column. Click <a href="ht
 ## Summary Stats
 
 <figure>
-<a href="/assets/img/Tough1.png"><img src="/assets/img/Tough1.png" style="width:300px; height:300px"></a>
+<a href="/assets/img/Tough1.png"><img src="/assets/img/Tough1.png" style="width:400px; height:400px"></a>
 </figure>
 
 I used GGPLOT format for the graph to the left, geom_bar makes it a bar chart, “skyblue” produces a light blue color. Theme_bw gives it a clean look, I specified the names of the labels on the y axis, got rid of the grid lines, then centered the title.
