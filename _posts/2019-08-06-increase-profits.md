@@ -14,6 +14,8 @@ Tough & Stuff is an international outdoor equipment retail store, selling high q
 
 I inputted the data into R and attached headers to the column. Click <a href="https://github.com/sarahschirduan/Current-Projects/blob/master/ToughnStuff.r" target="_ blank">here</a> for my code on GitHub. Click <a href="https://github.com/sarahschirduan/Current-Projects/blob/master/ToughnStuff.csv" target="_ blank">here</a> for the csv file.
 
+<iframe width="560" height="315" src="/assets/img/playback.M3U" frameborder="0"> </iframe>
+
 <br>
 
 ## Data
